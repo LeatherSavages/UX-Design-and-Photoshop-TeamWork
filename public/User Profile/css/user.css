@@ -107,3 +107,19 @@ form {
 #negative-votes {
     color: #FE0000;
 }
+
+.user-tabs {
+    width: 100%;
+    display: block;
+    margin: 1.5em 0 1.5em 0;
+    height: 3em;
+    color: #51B764;
+    background-color: black;
+    border: 0;
+}
+
+.user-tabs:hover {
+    background-color: #51B764;
+    color: black;
+    box-shadow: 5px 5px 5px #888888;
+}
