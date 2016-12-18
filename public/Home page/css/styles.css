@@ -196,7 +196,6 @@ h2{
 #footer {
     color: #2f535b;
     background: lightgrey;
-    margin-bottom: 10px;
 }
 
 #footer a {
@@ -215,6 +214,20 @@ h2{
     display: inline-block;
     vertical-align: middle;
     border-right: 1px solid black;
+}
+
+#footer-nav {
+  color: white;
+  background: black; 
+  text-align: center;
+  font-size: 0.9em;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+#footer-nav .navbar {
+    margin: 0;
+    border-radius: 0;
+    border: 0; 
 }
 
 @media screen and (max-width: 990px){
