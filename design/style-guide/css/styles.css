@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper {
+    width: 100%;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+p {
+    color: #4f5d6c;
+}
+
+p.size-one {
+    font-size: 28pt;
+}
+
+p.size-two {
+    font-size: 20pt;
+}
+
+p.size-three {
+    font-size: 17pt;
+}
+
+p.size-four {
+    font-size: 14pt;
+}
+
+p.size-five {
+    font-size: 11pt;
+}
+
+code {
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+    min-height: 30px;
+    display: inline-block;
+}
