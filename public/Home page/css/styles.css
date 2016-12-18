@@ -230,6 +230,11 @@ h2{
     border: 0; 
 }
 
+#icon img{
+    width: 25px;
+    height: 25px;
+}
+
 @media screen and (max-width: 990px){
     #footer{
         display: none;
