@@ -4,38 +4,363 @@
 <head>
     <meta charset="UTF-8">
     <title>Style Guide</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 
 <body>
-    <div id="wrapper">
-        <div class="container">
+    <div class="row space-between-elements">
+        <div class="col-md-7">
+            <nav>
+                <ul>
+                    <li><a>Menu Item</a></li>
+                    <li><a>Menu Item</a></li>
+                    <li><a>Menu Item</a></li>
+                    <li><a>Menu Item</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="col-md-5">
+            <code>
+                &#60;style&#62;
+                <br>
+                &#160;&#160;&#160;&#160;ul li {
+                <br>
+                &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;display: inline-block;
+                <br>
+                &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;padding: 0px 16px;
+                <br>
+                &#160;&#160;&#160;&#160;}
+                <br>
+                &#160;&#160;&#160;&#160;ul li>a {
+                <br>                       
+                &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;position: relative;
+                <br>
+                &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;color: #000000;
+                <br>
+                &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;font-size: 15pt;
+                <br>
+                &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;text-transform: uppercase;
+                <br>
+                &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;font-family: Verdana, sans-serif;
+                <br>
+                &#160;&#160;&#160;&#160;}
+                <br>
+                <br>
+                &#160;&#160;&#160;&#160;ul li>a:hover {
+                <br>
+                &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;color: #ff6358;
+                <br>
+                &#160;&#160;&#160;&#160;}
+                <br>
+                <br>
+                &#160;&#160;&#160;&#160;ul li>a:hover:after {
+                <br>
+                &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;content: '';
+                <br>
+                &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;width: 100%;
+                <br>
+                &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;position: absolute;
+                <br>
+                &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;left: 0;
+                <br>
+                &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;bottom: -7px;
+                <br>
+                &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;border-width: 0 0 3px;
+                <br>
+                &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;border-style: solid;
+                <br>
+                &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;border-color: #ff6358;
+                <br>
+                &#160;&#160;&#160;&#160;}
+                <br>
+                &#60;/style&#62;
+            </code>
+        </div>
+    </div>
+    <div class="row space-between-elements">
+        <div class="col-md-7">
+            <a class="link-right">hyperlink</a>
+        </div>
+        <div class="col-md-5">
+            <code>
+                &#60;a style = "color: #2f8eb8; text-decoration: none; font-size: 17pt; "&#62; 
+                <br>
+                &#60;style&#62;
+                <br>
+                &#160;&#160;&#160;&#160;a:hover {
+                <br>
+                &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;color: #ff6358; 
+                <br>
+                &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;text-decoration: none; 
+                <br>
+                &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cursor: pointer;
+                <br>
+                &#160;&#160;&#160;&#160;}
+                <br>
+                &#60;/style&#62;                        
+            </code>
+        </div>
+    </div>
+    <div class="row space-between-elements">
+        <div class="col-md-7">
             <p class="size-one">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
                 survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
             </p>
+        </div>
+        <div class="col-md-5">
             <code>
-				p.size-one {
-    				font-size: 28pt;
-				}
+                &#60;p class = "size-one" style = "font-size: 28pt; color: #4f5d6c; font-family: Verdana, sans-serif; "&#62;
             </code>
+        </div>
+    </div>
+    <div class="row space-between-elements">
+        <div class="col-md-7">
             <p class="size-two">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
                 survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
             </p>
+        </div>
+        <div class="col-md-5">
+            <code>
+                &#60;p class = "size-two" style = "font-size: 20pt; color: #4f5d6c; font-family: Verdana, sans-serif; "&#62;                       
+            </code>
+        </div>
+    </div>
+    <div class="row space-between-elements">
+        <div class="col-md-7">
             <p class="size-three">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
                 survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
             </p>
+        </div>
+        <div class="col-md-5">
+            <code>
+                &#60;p class = "size-three" style = "font-size: 17pt; color: #4f5d6c; font-family: Verdana, sans-serif; "&#62; 
+            </code>
+        </div>
+    </div>
+    <div class="row space-between-elements">
+        <div class="col-md-7">
             <p class="size-four">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
                 survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
             </p>
+        </div>
+        <div class="col-md-5">
+            <code>
+                &#60;p class = "size-four" style = "font-size: 14pt; color: #4f5d6c; font-family: Verdana, sans-serif; "&#62;
+            </code>
+        </div>
+    </div>
+    <div class="row space-between-elements">
+        <div class="col-md-7">
             <p class="size-five">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
                 survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-
             </p>
+        </div>
+        <div class="col-md-5">
+            <code>
+                &#60;p class = "size-five" style = "font-size: 11pt; color: #4f5d6c; font-family: Verdana, sans-serif; "&#62;
+            </code>
+        </div>
+    </div>
+    <div class="row space-between-elements">
+        <div class="col-md-8">
+            <h1>Heading 1</h1>
+        </div>
+        <div class="col-md-4">
+            <code>
+                &#60;h1 style = "font-family: Verdana, sans-serif; color: #000000; font-size: 110pt; font-weight: bold;"&#62;                  
+            </code>
+        </div>
+    </div>
+    <div class="row space-between-elements">
+        <div class="col-md-8">
+            <h2>Heading 2</h2>
+        </div>
+        <div class="col-md-4">
+            <code>
+                &#60;h2 style = "font-family: Verdana, sans-serif; color: #000000; font-size: 70pt; "&#62;                  
+            </code>
+        </div>
+    </div>
+    <div class="row space-between-elements">
+        <div class="col-md-8">
+            <h3>Heading 3</h3>
+        </div>
+        <div class="col-md-4">
+            <code>
+                &#60;h3 style = "font-family: Verdana, sans-serif; color: #000000; font-size: 60pt; font-weight: bold; "&#62;                  
+            </code>
+        </div>
+    </div>
+    <div class="row space-between-elements">
+        <div class="col-md-8">
+            <h4>Heading 4</h4>
+        </div>
+        <div class="col-md-4">
+            <code>
+                &#60;h4 style = "font-family: Verdana, sans-serif; color: #000000; font-size: 44pt; "&#62;                  
+            </code>
+        </div>
+    </div>
+    <div class="row space-between-elements">
+        <div class="col-md-8">
+            <h5>Heading 5</h5>
+        </div>
+        <div class="col-md-4">
+            <code>
+                &#60;h5 style = "font-family: Verdana, sans-serif; color: #000000; font-size: 32pt; font-weight: bold; "&#62;                  
+            </code>
+        </div>
+    </div>
+    <div class="row space-between-elements">
+        <div class="col-md-8">
+            <h6>Heading 6</h6>
+        </div>
+        <div class="col-md-4">
+            <code>
+                &#60;h6 style = "font-family: Verdana, sans-serif; color: #000000; text-transform: uppercase; font-size: 20pt;"&#62;                  
+            </code>
+        </div>
+    </div>
+    <div class="row space-between-elements">
+        <div class="col-md-8">
+            <div class="div-right color-first"></div>
+        </div>
+        <div class="col-md-4">
+            <code>
+                &#60;div class = "color-first" style = "background-color: #10a67d"&#62;                 
+            </code>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <div class="div-right color-second"></div>
+        </div>
+        <div class="col-md-4">
+            <code>
+                &#60;div class = "color-second" style = "background-color: #89b860"&#62;                  
+            </code>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <div class="div-right color-third"></div>
+        </div>
+        <div class="col-md-4">
+            <code>
+                &#60;div class = "color-third" style = "background-color: #51b765"&#62;                  
+            </code>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <div class="div-right color-fourth"></div>
+        </div>
+        <div class="col-md-4">
+            <code>
+                &#60;div class = "color-fourth" style = "background-color: #43a4b9"&#62;                   
+            </code>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <div class="div-right color-fifth"></div>
+        </div>
+        <div class="col-md-4">
+            <code>
+                &#60;div class = "color-fifth" style = "background-color: #348192"&#62;                 
+            </code>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <div class="div-right color-sixth"></div>
+        </div>
+        <div class="col-md-4">
+            <code>
+                &#60;div class = "color-sixth" style = "background-color: #588aad"&#62;                    
+            </code>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <div class="div-right color-seventh"></div>
+        </div>
+        <div class="col-md-4">
+            <code>
+                 &#60;div class = "color-seventh" style = "background-color: #1e4b6a"&#62;                  
+            </code>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <div class="div-right color-eight"></div>
+        </div>
+        <div class="col-md-4">
+            <code>
+                &#60;div class = "color-eight" style = "background-color: #79719b;"&#62;                 
+            </code>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <div class="div-right color-ninth"></div>
+        </div>
+        <div class="col-md-4">
+            <code>
+                &#60;div class = "color-ninth" style = "background-color: #786186;"&#62;                  
+            </code>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <div class="div-right color-tenth"></div>
+        </div>
+        <div class="col-md-4">
+            <code>
+                &#60;div class = "color-tenth" style = "background-color: #484455;"&#62;                  
+            </code>
+        </div>
+    </div>
+    <div class="row space-between-elements">
+        <div class="col-md-8">
+            <a>
+                <div class="primary-btn aligne-right">Primary</div>
+            </a>
+        </div>
+        <div class="col-md-4">
+            <code>
+                &#60;div class = "primary-btn" style = "padding-top: 10px; color: #fff; background-color: #d94819; text-transform: uppercase; height: 56px; width: 324px; text-align: center; font-size: 17pt;"&#62;                  
+            </code>
+        </div>
+    </div>
+    <div class="row space-between-elements">
+        <div class="col-md-8">
+            <a href="#">
+                <div class="secondary-btn aligne-right">Secondary</div>
+            </a>
+        </div>
+        <div class="col-md-4">
+            <code>
+                &#60;div class = "secondary-btn" style = "padding-top: 10px; color: #fff; background-color: #283a51; text-transform: uppercase; height: 56px; width: 324px; text-align: center; font-size: 17pt;"&#62;                  
+            </code>
+        </div>
+    </div>
+    <div class="row space-between-elements">
+        <div class="col-md-8">
+            <a>
+                <div class="ghost-btn aligne-right">Ghost</div>
+            </a>
+        </div>
+        <div class="col-md-4">
+            <code>
+                &#60;div class = "ghost-btn" style = "padding-top: 10px; color: #7b8591; background-color: #fff; border: 2px solid #7b8591; text-transform: uppercase; height: 56px; width: 324px; text-align: center; font-size: 17pt;"&#62;                  
+            </code>
         </div>
     </div>
 </body>
