@@ -1,0 +1,109 @@
+#user-profile {
+    text-align: center;
+}
+
+form {
+    margin: 5em 0 5em 0;
+    padding: 0 2em 0 2em;
+    display: table;
+}
+
+.user-icons {
+    padding: 10px 0 0px 4px;
+}
+
+#user-icon-table {
+    padding-top: 50px;
+    align-content: center;
+}
+
+#user-picture {
+    box-shadow: 3px 3px 5px #888888;
+    margin-bottom: 1.5em;
+}
+
+.blue-links {
+    color: #43A3BC;
+    text-shadow: 1px 1px 4px #888888;
+}
+
+#user-picture-form {
+    text-align: center;
+    align-content: center;
+    display:table-cell;
+}
+
+#user-info-wrapper {
+    display: table-cell;
+}
+
+#user-locations {
+    margin: 0 2em 0 2em;
+    font-size: 1.2em;
+}
+
+#sub-headings {
+    margin: 0 2em 0 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+#info-containers {
+    display: table;
+    margin: 0 2em 0 2em;
+    width: 100%;
+    background-color: white;
+}
+
+#main-info-container {
+    display: table-cell;
+    background-color: #CCCCCC;
+    box-shadow: 3px 3px 5px #888888;
+    margin-right: 2em;
+    padding: 1em;
+    vertical-align: top;
+}
+
+#info-spacer {
+    display: table-cell;
+    width: 6%;
+}
+
+#forum-activity-container {
+    display: table-cell;
+    background-color: #CCCCCC;
+    box-shadow: 3px 3px 5px #888888;
+    padding: 1em;
+}
+
+#forum-activities {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#forum-activity-table {
+    width: 100%;
+}
+
+.row-title {
+    width: 80%;
+    text-align: left;
+    border-bottom: 1px solid black;
+    padding-top: 1em;
+}
+
+.row-value {
+    width: 20%;
+    text-align: right;
+    border-bottom: 1px solid black;
+    padding-top: 1em;
+}
+
+#positive-votes {
+    color: #12840B;
+}
+
+#negative-votes {
+    color: #FE0000;
+}
