@@ -9,4 +9,7 @@
 * DragonClaw - Miroslav Dragnev
 
 # Description:
-* Creating new layout of a "http://ui.telerikacademy.com/users/DonchoMinkov"- and "http://ui.telerikacademy.com/"-pages with design-produced from the team within certain styles.
+* Creating new layout of the following pages,
+  with design-produced from the team within certain styles.
+	* "http://ui.telerikacademy.com/users/DonchoMinkov"
+	* "http://ui.telerikacademy.com/"
