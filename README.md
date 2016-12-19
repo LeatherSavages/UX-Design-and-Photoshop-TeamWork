@@ -1,11 +1,12 @@
 # UX-Design-and-Photoshop-TeamWork
 
-#Team: LeatherSavages
-#Team Members:
-* SpasimiraHadzhieva - Спасимира Хаджиева
-* IvelinR - Ивелин Ралев
-* PavelAp - Павел Апостолов
-* Georgi_Kalinkov - Георги Калинков
-* DragonClaw - Мирослав Драгнев
+# Team: LeatherSavages
+# Team Members:
+* SpasimiraHadzhieva - Spasimira Hadzhieva
+* IvelinR - Ivelin Ralev
+* PavelAp - Pavel Apostolov
+* Georgi_Kalinkov - Georgi Kalinkov
+* DragonClaw - Miroslav Dragnev
 
-#Description: Creating new layout of a "http://ui.telerikacademy.com/users/DonchoMinkov"- and "http://ui.telerikacademy.com/"-pages with design-produced from the team within certain styles.
+# Description:
+* Creating new layout of a "http://ui.telerikacademy.com/users/DonchoMinkov"- and "http://ui.telerikacademy.com/"-pages with design-produced from the team within certain styles.
