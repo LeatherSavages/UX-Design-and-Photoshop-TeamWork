@@ -119,11 +119,17 @@
         border-radius: 0px;
     }
     
+    .nav.nav-pills {
+        padding-left: 100px;
+        margin-bottom: 0;
+        list-style: none;
+    }
+    
     .nav>li>a {
         position: relative;
         display: block;
         padding: 14px 0px;
-        margin-left: 0px 16px;
+        margin: 0px 16px;
     }
     /*-----*/
     
